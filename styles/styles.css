@@ -155,3 +155,23 @@ border: 15px solid #F00;
 .section4-right{
     align-items: left;
 }
+.section5{
+    margin-top: 120px;
+    background-image: url(../asset/images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    fill: radial-gradient(59.04% 39.39% at 48.69% 49.7%, #B56C0F 0%, #FFF 100%);
+
+background-blend-mode: multiply;
+mix-blend-mode: multiply;
+}
+.section5-img{
+    display: flex;
+}
+.discount-img{
+    border-radius: 16px 16px 0px 0px;
+    margin-right: 100px;
+}
+.section5-bottom{
+    margin-top: -150px;
+}
