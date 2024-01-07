@@ -69,6 +69,12 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+button:hover{
+    color:#F00 ;
+    background-color:#FFF ;
+
+  transition: 0.6s;
+}
 span{
     color: #F00;
 text-align: center;
@@ -174,4 +180,79 @@ mix-blend-mode: multiply;
 }
 .section5-bottom{
     margin-top: -150px;
+}
+/* section5 ends here */
+.section6{
+    margin-top: 120px;
+}
+.section6-text{
+    text-align: left;
+}
+.containar1{
+    display: flex;
+   gap:24px;
+}
+.containar2{
+   margin-top: 24px;
+    display: flex;
+   gap:24px;
+   
+}
+.containar2 img:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.containar1 img:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+/* section6 ends here */
+.section7{
+    margin-top: 120px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px;
+   
+}
+.btn{
+    border-radius: 0px 50px 50px 0px;
+    margin-left:-170px ;
+}
+input{
+    padding: 24px 30px;
+    border-radius: 50px;
+    width: 648px;
+    height: 15px;
+    border: none;
+}
+/* section7 ends here */
+footer{
+    background: #070211;
+    margin-top: 120px;
+    height: 600px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+   
+}
+.footer-text{
+    width: 370px;
+    text-align: left;
+}
+.footer-img{
+    text-align: center;
+    padding: 50px;
+}
+.footer-img img{
+    margin-right: 24px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.ft{
+  
 }
