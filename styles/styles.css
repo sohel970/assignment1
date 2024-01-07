@@ -69,6 +69,16 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+span{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+}
 /* banner section ends here */
 .discount-text{
     color: #F00;
@@ -100,7 +110,6 @@ line-height: normal;
     background-repeat: no-repeat;
     justify-content: space-around;
     align-items: center;
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 .section2-text{
    text-align: left;
@@ -109,4 +118,40 @@ line-height: normal;
 }
 .section2-text *{
     margin-bottom: 24px;
+}
+.section3-font{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+.section3{
+background-color:rgb(216, 173, 173);
+}
+.section3-text{
+    padding: 100px 380px;
+    text-align: center;
+    width: 550px;
+}
+/* section2 ends here */
+.section4{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../asset/images/Group\ 96.png);
+    background-repeat: no-repeat;
+   background-position: right bottom;
+   gap: 80px;
+}
+.section4-center img{
+    padding: 50px;
+    border-radius: 463px;
+border: 15px solid #F00;
+}
+.section4-right{
+    align-items: left;
 }
