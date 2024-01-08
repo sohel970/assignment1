@@ -1,3 +1,4 @@
+/* common style here */
 * {
     margin: 0;
     padding: 0;
@@ -76,12 +77,12 @@ line-height: 40px;
     margin: 0 auto;
     border-radius: 16px;
 }
-
+/* banner styles starts here */
 .banner {
     max-height: 600px;
     margin-top: 50px;
     background-repeat: no-repeat;
-    background-image: url(../asset/images/Banner\ Image.png)
+    background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../asset/images/Banner\ Image.png)
 }
 
 .banner-text {
@@ -151,10 +152,10 @@ span {
 
 /* section1 ends here */
 .section2 {
-    height: 700px;
+    height:600px;
     margin-top: 120px;
     display: flex;
-    background-image: url(../asset/images/Vectorrr.png);
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(../asset/images/Vectorrr.png);
     background-repeat: no-repeat;
     justify-content: space-around;
     align-items: center;
@@ -163,7 +164,6 @@ span {
 .section2-text {
     text-align: left;
     width: 700px;
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
 .section2-text * {
@@ -181,7 +181,8 @@ span {
 }
 
 .section3 {
-    background-color: rgb(216, 173, 173);
+    margin-top: 120px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
 .section3-text {
