@@ -275,11 +275,11 @@ span {
     /* position:static; */
 }
 
-.section5 .section5-img .discount-img img{
+.section5 .section5-img .discount-img img {
     padding: 5px auto;
     vertical-align: middle;
-} 
-   
+}
+
 
 .section5-text {
     text-align: center;
@@ -294,7 +294,7 @@ span {
 /* section5 ends here */
 .section6 {
     margin-top: 120px;
-   
+
 }
 
 .section6-img {
@@ -305,7 +305,7 @@ span {
 .section6-text {
     text-align: left;
     margin-bottom: 18px;
-    width: 800px;
+    width: 850px;
 }
 
 .containar1 {
@@ -333,12 +333,12 @@ span {
 
 /* section6 ends here */
 .section7 {
-   
+
     margin-top: 120px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
-   padding: 80px 212px;
-   border-radius:16px ;
+    padding: 80px 212px;
+    border-radius: 16px;
 }
 
 .btn {
