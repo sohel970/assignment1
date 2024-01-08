@@ -84,18 +84,21 @@ button {
     font-weight: 700;
     line-height: normal;
 }
+
 button:hover {
     color: #F00;
     background-color: #FFF;
 
     transition: 0.6s;
 }
+
 .container {
     width: 82%;
     max-width: 1320;
     margin: 0 auto;
     border-radius: 16px;
 }
+
 span {
     color: #F00;
     font-family: Inter;
@@ -104,12 +107,14 @@ span {
     font-weight: 600;
     line-height: 56px;
 }
-.holi-text{
+
+.holi-text {
     color: #F00;
-font-family: Merriweather;
-font-size: 72px;
+    font-family: Merriweather;
+    font-size: 72px;
 
 }
+
 /* banner styles starts here */
 .banner {
     max-height: 600px;
@@ -124,6 +129,7 @@ font-size: 72px;
     align-items: center;
     padding: 200px 344px;
 }
+
 /* banner section ends here */
 
 /* section1 starts here */
@@ -131,6 +137,7 @@ font-size: 72px;
     margin-top: 120px;
     text-align: center;
 }
+
 .section1 .discount-text {
     color: #F00;
     font-family: Inter;
@@ -140,6 +147,7 @@ font-size: 72px;
     line-height: normal;
     margin-bottom: 48px;
 }
+
 .section1 .section1-text {
     color: #070211;
     font-family: Inter;
@@ -149,6 +157,7 @@ font-size: 72px;
     line-height: normal;
     margin-bottom: 48px;
 }
+
 /* section1 ends here */
 
 /* section2 starts here */
@@ -161,17 +170,19 @@ font-size: 72px;
     border-radius: 16px;
     align-items: center;
     padding: 40px 138px 0px 142px;
+
 }
 
 .section2-text {
     text-align: left;
     width: 700px;
-   
+
 }
 
 .section2-text * {
     margin-bottom: 24px;
 }
+
 /* section2 ends here */
 
 /* section3 starts here */
@@ -179,6 +190,7 @@ font-size: 72px;
     margin-top: 120px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
+
 .section3 .section3-font {
     color: #070211;
     font-family: Inter;
@@ -188,83 +200,111 @@ font-size: 72px;
     line-height: 56px;
     text-transform: capitalize;
 }
-.section3-btn{
+
+.section3-btn {
     margin-top: 48px;
 }
+
 .section3-text {
     padding: 100px 380px;
     text-align: center;
     width: 550px;
 }
+
 /* section3 ends here */
 
 /* section4 starts here */
 .section4 {
+    max-height: 435px;
     margin-top: 120px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-image: url(../asset/images/Group\ 96.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
-    gap: 80px;
+    background-position: right 10% bottom;
+
+}
+
+.section4-left {
+    width: 393px;
+    text-align: left;
+    padding: 104px 70px 104px 0px;
 }
 
 .section4-center img {
+    width: 300px;
+    height: 300px;
     padding: 50px;
-    border-radius: 463px;
+    border-radius: 50%;
     border: 15px solid #F00;
 }
 
+.section4 .section4-left h2 {
+    margin-bottom: 24px;
+}
+
+.section4 p {
+    text-align: left;
+}
+
 .section4-right {
-    align-items: left;
+    width: 276px;
+    padding: 30px 0px 118px 118px;
+    text-align: left;
 }
 
 .section5 {
     margin-top: 120px;
     background-image: url(../asset/images/Rectangle\ 2.png);
     background-repeat: no-repeat;
-    background-position:left bottom;
+    background-position: left bottom;
     /* background-color: aquamarine; */
 }
+
 .section5-img {
-    
+
     display: flex;
     justify-content: space-between;
-    
- 
+
+
 }
-.section5-img .box-img{
+
+.section5-img .box-img {
     width: 900px;
     /* position:static; */
 }
-.discount-img {
-    padding:5px auto;
+
+.section5 .section5-img .discount-img img{
+    padding: 5px auto;
+    vertical-align: middle;
+} 
    
-}
-.section5-text{
+
+.section5-text {
     text-align: center;
     width: 900px;
-
-    padding: 0px  126px 26px;
+    padding: 0px 126px 26px;
 }
+
 .section5-bottom {
-    margin-top: -150px;
+    /* margin-top: -150px; */
 }
 
 /* section5 ends here */
 .section6 {
     margin-top: 120px;
-    background-color: aqua;
+   
 }
-.section6-img{
-    width: 350px;
-    height: 350px;
+
+.section6-img {
+    width: 424px;
+    height: 424px;
 }
 
 .section6-text {
     text-align: left;
-   margin-bottom:  18px;
+    margin-bottom: 18px;
     width: 800px;
 }
 
@@ -293,17 +333,18 @@ font-size: 72px;
 
 /* section6 ends here */
 .section7 {
+   
     margin-top: 120px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
-    padding: 80px;
-
+   padding: 80px 212px;
+   border-radius:16px ;
 }
 
 .btn {
     border-radius: 0px 50px 50px 0px;
- margin-left: -165px;
- position:absolute;
+    margin-left: -165px;
+    position: absolute;
 }
 
 input {
@@ -313,11 +354,14 @@ input {
     height: 7px;
     border: none;
 }
-.section7 img,{
-    margin-bottom: 48px;
+
+.section7 img,
+{
+margin-bottom: 48px;
 }
-.section7  p{
-    padding: 22px  48px;
+
+.section7 p {
+    padding: 22px 48px;
     width: 900px;
     margin-bottom: 22px;
 }
@@ -331,19 +375,21 @@ footer {
 }
 
 .footer-top {
-    padding:120px 0px 50px 0px;
+    padding: 120px 0px 50px 0px;
     display: flex;
     justify-content: flex-start;
-    
+
 }
 
 .footer-text {
     width: 390px;
     text-align: left;
 }
-.ft{
+
+.ft {
     margin-left: 480px;
 }
+
 .footer-img {
     text-align: center;
     padding: 48px 0px;
@@ -354,12 +400,14 @@ footer {
 }
 
 .footer-bottom {
-    padding-top:50px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
-hr{
+
+hr {
     height: 1px;
-   color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.15);
 }
+
 /* footer ends here */
