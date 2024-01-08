@@ -220,8 +220,7 @@ span {
     background-image: url(../asset/images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    fill: radial-gradient(59.04% 39.39% at 48.69% 49.7%, #B56C0F 0%, #FFF 100%)
-    background-blend-mode: multiply;
+    background: (59.04% 39.39% at 48.69% 49.7%, #B56C0F 0%, #FFF 100%)
     mix-blend-mode: multiply;
 }
 
@@ -300,20 +299,22 @@ footer {
 }
 
 .footer-top {
+    padding:120px 0px 50px 0px;
     display: flex;
-    justify-content: space-between;
-    padding: 120px;
-
+    justify-content: flex-start;
+    
 }
 
 .footer-text {
     width: 390px;
     text-align: left;
 }
-
+.ft{
+    margin-left: 480px;
+}
 .footer-img {
     text-align: center;
-    padding: 20px;
+    padding: 48px 0px;
 }
 
 .footer-img img {
@@ -321,6 +322,12 @@ footer {
 }
 
 .footer-bottom {
+    padding-top:50px;
     display: flex;
     justify-content: space-between;
 }
+hr{
+    height: 1px;
+   color: rgba(255, 255, 255, 0.15);
+}
+/* footer ends here */
