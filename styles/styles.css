@@ -104,7 +104,12 @@ span {
     font-weight: 600;
     line-height: 56px;
 }
+.holi-text{
+    color: #F00;
+font-family: Merriweather;
+font-size: 72px;
 
+}
 /* banner styles starts here */
 .banner {
     max-height: 600px;
@@ -219,20 +224,30 @@ span {
     margin-top: 120px;
     background-image: url(../asset/images/Rectangle\ 2.png);
     background-repeat: no-repeat;
-    background-position: bottom;
-    background: (59.04% 39.39% at 48.69% 49.7%, #B56C0F 0%, #FFF 100%)
-    mix-blend-mode: multiply;
+    background-position:left bottom;
+    /* background-color: aquamarine; */
 }
-
 .section5-img {
+    
     display: flex;
+    justify-content: space-between;
+    
+ 
 }
-
+.section5-img .box-img{
+    width: 900px;
+    /* position:static; */
+}
 .discount-img {
-    border-radius: 16px 16px 0px 0px;
-    margin-right: 100px;
+    padding:5px auto;
+   
 }
+.section5-text{
+    text-align: center;
+    width: 900px;
 
+    padding: 0px  126px 26px;
+}
 .section5-bottom {
     margin-top: -150px;
 }
@@ -240,22 +255,30 @@ span {
 /* section5 ends here */
 .section6 {
     margin-top: 120px;
+    background-color: aqua;
+}
+.section6-img{
+    width: 350px;
+    height: 350px;
 }
 
 .section6-text {
     text-align: left;
+   margin-bottom:  18px;
+    width: 800px;
 }
 
 .containar1 {
     display: flex;
     gap: 24px;
+    justify-content: space-between;
 }
 
 .containar2 {
     margin-top: 24px;
     display: flex;
     gap: 24px;
-
+    justify-content: space-between;
 }
 
 .containar2 img:hover {
