@@ -279,15 +279,24 @@ span {
 
 .btn {
     border-radius: 0px 50px 50px 0px;
-    margin-left: -170px;
+ margin-left: -165px;
+ position:absolute;
 }
 
 input {
     padding: 24px 30px;
     border-radius: 50px;
-    width: 648px;
-    height: 15px;
+    width: 600px;
+    height: 7px;
     border: none;
+}
+.section7 img,{
+    margin-bottom: 48px;
+}
+.section7  p{
+    padding: 22px  48px;
+    width: 900px;
+    margin-bottom: 22px;
 }
 
 /* section7 ends here */
