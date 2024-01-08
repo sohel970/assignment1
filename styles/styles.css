@@ -88,7 +88,6 @@ button {
 button:hover {
     color: #F00;
     background-color: #FFF;
-
     transition: 0.6s;
 }
 
@@ -129,7 +128,6 @@ span {
     align-items: center;
     padding: 200px 344px;
 }
-
 /* banner section ends here */
 
 /* section1 starts here */
@@ -157,7 +155,6 @@ span {
     line-height: normal;
     margin-bottom: 48px;
 }
-
 /* section1 ends here */
 
 /* section2 starts here */
@@ -173,13 +170,13 @@ span {
 
 }
 
-.section2-text {
+.section2 .section2-text {
     text-align: left;
     width: 700px;
 
 }
 
-.section2-text * {
+.section2 .section2-text * {
     margin-bottom: 24px;
 }
 
@@ -201,11 +198,11 @@ span {
     text-transform: capitalize;
 }
 
-.section3-btn {
+.section3 .section3-text .section3-btn {
     margin-top: 48px;
 }
 
-.section3-text {
+.section3 .section3-text {
     padding: 100px 380px;
     text-align: center;
     width: 550px;
@@ -226,13 +223,13 @@ span {
 
 }
 
-.section4-left {
+.section4 .section4-left {
     width: 393px;
     text-align: left;
     padding: 104px 70px 104px 0px;
 }
 
-.section4-center img {
+.section4 .section4-center img {
     width: 300px;
     height: 300px;
     padding: 50px;
@@ -248,92 +245,80 @@ span {
     text-align: left;
 }
 
-.section4-right {
+.section4 .section4-right {
     width: 276px;
     padding: 30px 0px 118px 118px;
     text-align: left;
 }
+/* section4 ends here */
 
+/* section5 starts here */
 .section5 {
     margin-top: 120px;
     background-image: url(../asset/images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: left bottom;
-    /* background-color: aquamarine; */
 }
 
-.section5-img {
-
+.section5 .section5-img {
     display: flex;
     justify-content: space-between;
-
-
-}
-
-.section5-img .box-img {
-    width: 900px;
-    /* position:static; */
 }
 
 .section5 .section5-img .discount-img img {
     padding: 5px auto;
     vertical-align: middle;
 }
-
-
-.section5-text {
+.section5 .section5-text {
     text-align: center;
     width: 900px;
     padding: 0px 126px 26px;
 }
-
-.section5-bottom {
-    /* margin-top: -150px; */
-}
-
 /* section5 ends here */
+
+/* section6 starts here */
 .section6 {
     margin-top: 120px;
 
 }
 
-.section6-img {
+.section6 .section6-container .section6-img {
     width: 424px;
     height: 424px;
 }
 
-.section6-text {
+.section6 .section6-text {
     text-align: left;
     margin-bottom: 18px;
     width: 850px;
 }
 
-.containar1 {
+.section6 .section6-container .containar1 {
     display: flex;
     gap: 24px;
     justify-content: space-between;
 }
 
-.containar2 {
+.section6 .section6-container .containar2 {
     margin-top: 24px;
     display: flex;
     gap: 24px;
     justify-content: space-between;
 }
 
-.containar2 img:hover {
+.section6 .section6-container .containar2 img:hover {
     opacity: 0.5;
     transition: 0.3s;
 }
 
-.containar1 img:hover {
+.section6 .section6-container .containar1 img:hover {
     opacity: 0.5;
     transition: 0.3s;
 }
-
 /* section6 ends here */
-.section7 {
 
+/* section7 starts here */
+.section7 {
     margin-top: 120px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
@@ -341,13 +326,13 @@ span {
     border-radius: 16px;
 }
 
-.btn {
+.section7 .btn {
     border-radius: 0px 50px 50px 0px;
     margin-left: -165px;
     position: absolute;
 }
 
-input {
+.section7 input {
     padding: 24px 30px;
     border-radius: 50px;
     width: 600px;
@@ -355,8 +340,7 @@ input {
     border: none;
 }
 
-.section7 img,
-{
+.section7 img{
 margin-bottom: 48px;
 }
 
@@ -365,47 +349,46 @@ margin-bottom: 48px;
     width: 900px;
     margin-bottom: 22px;
 }
-
 /* section7 ends here */
+
+/*footer starts here */
 footer {
     background: #070211;
     margin-top: 120px;
     height: 600px;
-
 }
 
-.footer-top {
+footer .footer-top {
     padding: 120px 0px 50px 0px;
     display: flex;
     justify-content: flex-start;
-
 }
 
-.footer-text {
+.footer-top .footer-text {
     width: 390px;
     text-align: left;
 }
 
-.ft {
+footer .footer-top .ft {
     margin-left: 480px;
 }
 
-.footer-img {
+footer .footer-img {
     text-align: center;
     padding: 48px 0px;
 }
 
-.footer-img img {
+footer .footer-img img {
     margin-right: 24px;
 }
 
-.footer-bottom {
+footer .footer-bottom {
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
 
-hr {
+footer hr {
     height: 1px;
     color: rgba(255, 255, 255, 0.15);
 }
