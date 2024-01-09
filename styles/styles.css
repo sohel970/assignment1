@@ -259,8 +259,20 @@ span {
     background-repeat: no-repeat;
     background-position: left bottom;
 }
+.dis-img{
+    width: 600px;
+    height: 438px;
+    margin-left: -150px;
+    background-image: url(../asset/images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.section5 .dis-img img{
+    margin-top: 80px;
+}
 
 .section5 .section5-img {
+    gap: 18px;
     display: flex;
     justify-content: space-between;
 }
@@ -359,7 +371,7 @@ footer {
 }
 
 footer .footer-top {
-    padding: 120px 0px 50px 0px;
+    padding: 120px 0px 50px;
     display: flex;
     justify-content: flex-start;
 }
